@@ -1,0 +1,52 @@
+:root {
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 30px 20px;
+}
+.main {    
+    background-image: linear-gradient(to bottom, #f08080, #faaba9);    
+    color: white;    
+}
+.subject {
+    font-size: 0.7rem;
+}
+.subject div {
+    font-size: 0.8rem;
+}
+h1 {
+    line-height: 10rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.list {
+    border-radius: 10px;    
+    position: relative;
+    top: -10px;
+    background-color: white;
+    overflow: auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    border-bottom: 1px solid #d0d0d0;
+    padding: 15px 0;
+    font-weight: bold;
+}
+li .detail {
+    font-weight: lighter;
+    color: gray;
+    font-size: 0.8rem;
+}
+.past {
+    color: #d0d0d0;    
+}
+.past .detail {
+    color: #d0d0d0;
+}
+
