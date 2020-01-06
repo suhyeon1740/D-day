@@ -10,6 +10,9 @@ var passedDay = Math.round(passedTime / day)
 document.getElementById("accent").innerText = passedDay
 document.getElementById("startDate").innerText = dateFormat(firstDay)
 
+// printList(22)
+// printList(50)
+// printList(100)
 var dayArray = [22, 50, 100, 200, 300, 365, 400]
 for (var i = 0; i < dayArray.length; i++) {    
     printList(dayArray[i])
@@ -18,6 +21,7 @@ for (var i = 0; i < dayArray.length; i++) {
 function printList(days) {
     var future =toFirst + days * day
     var someday = dateFormat(new Date(future))
+    // document.getElementById(`date${days}`).innerText = someday
     var ul = document.querySelector('ul')
     ul.innerHTML = ul.innerHTML + `
             <li class="${days < passedDay && 'past'}">
